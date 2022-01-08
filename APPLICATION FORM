@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+        AAYUSH APPLICATION FORM
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			/* background-image: linear-gradient(rgb(230, 16, 16), yellow, rgb(250, 116, 250)); */
+		background-image: url(love.jpg);
+			font-family: Verdana;
+			text-align: center; 
+		}
+        .h1{
+			background-color: #04539b;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-top: 75px;
+			text-shadow: 2px 5px rgb(0, 0, 0);
+			
+		}
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 775px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+			border:solid rgb(0, 0, 0);
+			border-radius: 15px;
+			box-shadow: rgb(0, 0, 0);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+            padding-top: 10px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		.button1 {
+			border: 0px solid #777; 
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: inline-block;
+			width: 50px;
+			/* margin-top: 50px; */
+			margin-bottom: 20px;
+		}
+       
+        
+
+        }
+	</style>
+</head>
+
+<body><div class="h1">
+	<h1 style="color: #fff; padding-top: 30px ;"> 
+		<b>APPLICATION FOR PERMISSION TO DATE MY DAUGHTER</b></h1> 
+</div><!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+        <div class="form-control">
+			<label for="Address" id="label-Address">
+				Address
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="Address"
+				id="Address"
+				placeholder="Enter your address" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+
+        <div class="form-control">
+			<label for="Phone Number" id="label-Phone Number">
+				Phone Number
+			</label>
+
+			<!-- Input Type Phone Number-->
+			<input type="" 
+				id="Phone Number"
+				placeholder="Enter 10 digit number" maxlength="10" />
+		</div>
+
+		<div class="form-control">
+			<label for="IQ" id="label-IQ">
+				IQ
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="number"
+				id="IQ"
+				placeholder="Enter your IQ" />
+		</div>
+
+		<div class="form-control">
+			<label>
+				GENDER
+			</label>
+
+			<!-- Input Type Radio Button -->
+			<label for="INPUT-1">
+				<input type="radio"
+					id="INPUT-1"
+					name="INPUT">Male</input>
+			</label>
+			<label for="INPUT-2">
+				<input type="radio"
+					id="INPUT-2"
+					name="INPUT">Female</input>
+			</label>
+			<label for="INPUT-3">
+				<input type="radio"
+					id="INPUT-3"
+					name="INPUT">Other</input>
+			</label>
+		</div>
+
+              <div class="form-control">
+             <label for="start">Date of Proposed Outing:</label>
+
+                <input type="date" id="start" name="date-start"
+                value="mm/dd/yyyy"
+                min="" max="">
+            </div>
+
+
+            
+		<div class="form-control">
+			<label>Check All That Apply
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">I have Tattoos and/or Piercings.</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">I have Mercedes.</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">I am more than 2 years old than my daughter.</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">I work Full-time.</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">My parents are rich.</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Is the date at a well lit public location.</input></label>
+
+        <div class="form-control">
+            <label for="persuasion" id="label-persuasion">
+                Political Persuasion?
+            </label>
+                    
+                    
+                    
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="LEFT WING">Left Wing</option>
+                <option value="RIGHT WING">Right Wing</option>
+                <option value="NO INCLUSION"> No Inclusion</option>
+            </select>
+         </div>
+				
+         <div class="form-control">
+            <label for="education" id="label-education">
+                Education Level Completed
+            </label>
+                    
+                    
+                    
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Higher Secondary">Higher Secondary</option>
+                <option value="Senior Secondary">Senior Secondary</option>
+                <option value="University"> University</option>
+            </select>
+         </div>
+
+
+		<div class="form-control" style="text-align: left;">
+			<label for="comment" >
+				In 50 words or more explain why you want to date my daughter
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment" rows="10" cols="60"
+				
+		        placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+        <div class="form-control" style="text-align: left;">
+			<label for="comment" >
+				Please upload contact details for 2 references
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment" rows="5" cols="60"
+				
+		        placeholder="Enter the details">
+			</textarea>
+		</div>
+        Upload Police Clearance Certificate, Bank Statement and Medical Certficates here:
+        <div class="button1">
+        <!-- Multi-line Text Input Control -->
+        <center>
+        <button type="Attach" value="Attach" >
+			Attach
+		</button>
+        </center>
+        </div>
+
+        <div class="button2">
+		<!-- Multi-line Text Input Control -->
+		<center><button type="submit" value="submit">
+			Submit Your Application
+		</button></center>
+        </div>
+       
+	</form>
+    
+</body>
+
+</html>
